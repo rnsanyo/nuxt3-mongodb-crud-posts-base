@@ -8,5 +8,8 @@ export default defineNuxtConfig({
     plugins: [
       "~/server/index.ts"
     ]
+  },
+  runtimeConfig: {
+    mongodbUri: process.env.MONGODB_URI,
   }
 })

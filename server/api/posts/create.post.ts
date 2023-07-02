@@ -6,8 +6,7 @@ export default defineEventHandler(async (event) => {
 
   // Create Post
   try {
-    const response = await Post.create(body)
-    return response
+    return await Post.create(body)
   } catch (e) {
     console.error("An error occurred while creating the post: ", e);
   }

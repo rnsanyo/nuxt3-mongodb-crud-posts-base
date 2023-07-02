@@ -9,9 +9,8 @@ export default defineEventHandler(async (event) => {
 
   // Update Post
   try {
-    const response = await Post.findByIdAndUpdate(id, body, { new: true })
+    return await Post.findByIdAndUpdate(id, body, { new: true })
     // The { new: true } option ensures that the updated document is returned
-    return response
   } catch (e) {
     console.error("An error occurred while updating the post: ", e);
   }

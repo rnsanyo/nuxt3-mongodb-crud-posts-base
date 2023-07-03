@@ -9,6 +9,8 @@ This is a basic Blog posts crud functionality setup. Using a store management pa
 
 ## Setup
 
+Don't forget to use your own .env file.
+
 Make sure to install the dependencies:
 
 ```bash

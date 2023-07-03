@@ -1,5 +1,7 @@
 # Basic Blog Posts CRUD setup.
 
+This is a basic Blog posts crud functionality setup. Using a store management pattern, fetches once and manages the fetched information locally.
+
 - Nuxt 3 Server API.
 - Pinia management store.
 - MongoDB and mongoose.

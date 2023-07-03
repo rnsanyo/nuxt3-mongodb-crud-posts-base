@@ -1,6 +1,9 @@
-# Nuxt 3 Minimal Starter
+# Basic Blog Posts CRUD setup.
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+- Nuxt 3 Server API.
+- Pinia management store.
+- MongoDB and mongoose.
+- Nitro Plugin config.
 
 ## Setup
 
